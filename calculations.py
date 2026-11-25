@@ -28,7 +28,9 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-DATA_DIR = Path(__file__).parent / "data"
+ROOT = Path(__file__).parent
+# Data files may sit in a data/ folder or directly in the project root (e.g. after a flat GitHub upload).
+DATA_DIR = ROOT / "data" if (ROOT / "data" / "customer_accounts.csv").exists() else ROOT
 FISCAL_YEAR = 2025
 DEFAULT_USEFUL_LIFE_YEARS = 5
 

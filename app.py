@@ -18,8 +18,7 @@ from calculations import (DEFAULT_USEFUL_LIFE_YEARS, LIMITATIONS, MANAGEMENT_ACT
 # ----------------------------------------------------------------------------- look & feel
 NAVY, BLUE, LIGHT, PALE = "#1B2A4A", "#4A6FA5", "#9DB4D3", "#F4F7FB"
 RED, GRAY, GRID = "#B5473A", "#8A94A6", "#E6EBF2"
-# Paste your GitHub repository URL here after creating it, e.g. "https://github.com/yourname/AccountIQ".
-GITHUB_URL = ""
+GITHUB_URL = "https://github.com/chahatwalia-a11y/AccountIQ"
 
 DISCLAIMER = "Illustrative prototype using synthetic data. Not actual Roche or customer financial information."
 
@@ -161,7 +160,9 @@ with st.sidebar:
         sr = st.slider("High service cost (% of net rev.)", 0.05, 0.40, d.high_service_ratio, 0.01, format="%.2f")
         ir = st.slider("High instrument cost (% of net rev.)", 0.05, 0.50, d.high_instrument_ratio, 0.01, format="%.2f")
     st.markdown("#### Project files")
-    xlsx = Path(__file__).parent / "excel" / "AccountIQ_Financial_Model.xlsx"
+    _root = Path(__file__).parent
+    xlsx = next((p for p in (_root / "excel" / "AccountIQ_Financial_Model.xlsx", _root / "AccountIQ_Financial_Model.xlsx")
+                 if p.exists()), _root / "excel" / "AccountIQ_Financial_Model.xlsx")
     if xlsx.exists():
         st.download_button("Download Excel model", xlsx.read_bytes(), "AccountIQ_Financial_Model.xlsx",
                            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", width="stretch")

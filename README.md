@@ -19,9 +19,9 @@ The model is built three ways: in Python (Pandas), in SQL (SQLite), and as a for
 - build_excel.py: builds the Excel workbook
 - queries.sql: SQL analysis queries
 - requirements.txt: Python dependencies
-- data/: generated CSV data
-- database/accountiq.db: SQLite database
-- excel/AccountIQ_Financial_Model.xlsx: Excel financial model
+- customer_accounts.csv, revenue_data.csv, instrument_costs.csv, service_costs.csv: synthetic data
+- accountiq.db: SQLite database
+- AccountIQ_Financial_Model.xlsx: Excel financial model
 
 ## Running the project
 
