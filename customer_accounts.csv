@@ -1,0 +1,31 @@
+account_id,account_name,customer_type,region,contract_start,instrument_count
+ACC-001,Saguaro Valley Medical Center,Independent Pathology Lab,Southeast,2022-08-01,2
+ACC-002,Redrock Regional Hospital,Reference Laboratory,Southwest,2022-04-01,4
+ACC-003,Pinecrest University Health,Community Hospital,West,2022-10-01,4
+ACC-004,Lakeshore Pathology Partners,Independent Pathology Lab,Southeast,2023-04-01,2
+ACC-005,Copper Mesa Diagnostics,Independent Pathology Lab,Southwest,2022-08-01,2
+ACC-006,Bluewater Community Hospital,Independent Pathology Lab,Northeast,2025-02-01,2
+ACC-007,Northfield Reference Labs,Reference Laboratory,Midwest,2021-12-01,3
+ACC-008,Granite Peak Health System,Independent Pathology Lab,West,2022-02-01,2
+ACC-009,Silver Creek Medical Center,Independent Pathology Lab,West,2021-08-01,2
+ACC-010,Harborview Clinical Laboratory,Reference Laboratory,Southwest,2021-05-01,4
+ACC-011,Prairie Plains Hospital,Reference Laboratory,Southwest,2021-04-01,4
+ACC-012,Summit Academic Medical,Independent Pathology Lab,Southwest,2021-01-01,2
+ACC-013,Cedar Hollow Pathology,Academic Medical Center,Southeast,2022-03-01,4
+ACC-014,Ironwood Regional Medical,Reference Laboratory,Midwest,2021-05-01,3
+ACC-015,Meadowbrook Community Health,Academic Medical Center,Midwest,2023-08-01,4
+ACC-016,Atlas Reference Diagnostics,Academic Medical Center,Midwest,2022-12-01,3
+ACC-017,Riverbend University Hospital,Academic Medical Center,Southeast,2022-01-01,3
+ACC-018,Juniper Ridge Lab Services,Independent Pathology Lab,Midwest,2022-06-01,2
+ACC-019,Oakmont General Hospital,Academic Medical Center,Southeast,2022-09-01,4
+ACC-020,Coastal Precision Pathology,Community Hospital,Southwest,2025-02-01,2
+ACC-021,Highland Medical Center,Independent Pathology Lab,Southwest,2021-07-01,2
+ACC-022,Sterling Diagnostic Labs,Academic Medical Center,Northeast,2021-05-01,4
+ACC-023,Willow Park Hospital,Community Hospital,Southeast,2021-05-01,2
+ACC-024,Canyon State Health Sciences,Community Hospital,Southwest,2021-09-01,2
+ACC-025,Evergreen Pathology Group,Reference Laboratory,West,2021-06-01,3
+ACC-026,Beacon Hill Medical Center,Academic Medical Center,West,2022-07-01,3
+ACC-027,Mesa Verde Clinical Lab,Community Hospital,Midwest,2021-01-01,2
+ACC-028,Starlight Children's Hospital,Reference Laboratory,Southwest,2021-10-01,3
+ACC-029,Keystone Regional Laboratory,Community Hospital,West,2022-03-01,2
+ACC-030,Driftwood Community Hospital,Community Hospital,Northeast,2021-10-01,4
